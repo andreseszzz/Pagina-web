@@ -4,15 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>galeria</title>
+    <style>
+        .galeria{
+            background: black;
+            width: 1015px;
+            align-items: center ;
+        }
+        table,
+        th{
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Galeria de fotos</h1>
-    <div>
-        <a href="/imagenes/berserk.jpg"></a>
-        <a href="/imagenes/kentauro.png"></a>
-        <a href="/imagenes/guts.jpg"></a>
-        <a href="/imagenes/holi.jpg"></a>
+    <ul>
+        <li><a href="index.html">Pagina principal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <div class="galeria">
+        <table class="tabla">
+            <tr>
+                <td>
+                    <th><img src="/Pagina-web/imagenes/guts.jpg"  ></th>
+                    <th><img src="/Pagina-web/imagenes/guts2.jpg" ></th>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <th><img src="/Pagina-web/imagenes/guts3.jpg" ></th>
+                    <th><img src="/Pagina-web/imagenes/guts4.jpg" ></th>
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
